@@ -183,7 +183,7 @@ requires-dist = [
     { name = "cryptography", specifier = "==46.0.6" },
     { name = "dumb-init", specifier = ">=1.2.5.post1" },
     { name = "faiss-cpu", specifier = "==1.12" },
-    { name = "lightspeed-stack-providers", specifier = "==0.4.2" },
+    { name = "lightspeed-stack-providers", specifier = "==0.4.3" },
     { name = "litellm", specifier = "==1.82.6" },
     { name = "mcp", specifier = "==1.26.0" },
     { name = "pillow", specifier = "==12.1.1" },
@@ -1186,7 +1186,7 @@ wheels = [
 
 [[package]]
 name = "lightspeed-stack-providers"
-version = "0.4.2"
+version = "0.4.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1203,9 +1203,9 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7c/c5/4b495e4c37f305bf3afa85d57aa797045363a08de6b1aaeba45c748a7e46/lightspeed_stack_providers-0.4.2.tar.gz", hash = "sha256:147625120444ae003551762b2cefc657c2ba9b7f17209b1c7eefe4b2aca09154", size = 47594, upload-time = "2026-03-10T12:52:05.632Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2c/49/d34502d113f9d8b4b957e561f967f28b7ae0a50d1030d8c47da4c187783e/lightspeed_stack_providers-0.4.3.tar.gz", hash = "sha256:fcb42ee9bb360641b75ebce86bbe4d47c3c1a0a2a16a7f5ea3bb7c521b2c3dc3", size = 48634, upload-time = "2026-04-08T09:11:22.219Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/25/e7/4a8ec1eef3314814b61ed287dd9dc9e36ce558cfe7cf930844602350238a/lightspeed_stack_providers-0.4.2-py3-none-any.whl", hash = "sha256:61561d5183ce71fe7ac6a6521ef45852a144dbd9244f53978deeb6292e8bdc8e", size = 58725, upload-time = "2026-03-10T12:52:04.586Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/7d/af6f07d4ecde420fe0ba6892c2d2307d61230c3d36cc152d935c7c66f969/lightspeed_stack_providers-0.4.3-py3-none-any.whl", hash = "sha256:ffd214876a84ff38875a4aef6896597e15b8c9eea1594e9dd2716926e953ba41", size = 61245, upload-time = "2026-04-08T09:11:20.931Z" },
 ]
 
 [[package]]
